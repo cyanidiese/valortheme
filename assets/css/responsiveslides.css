@@ -1,0 +1,43 @@
+/*! http://responsiveslides.com v1.55 by @viljamis */
+
+.rslides {
+    list-style: none;
+    /*overflow: hidden;*/
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height:700px;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+#centered-btns1_s0 {
+    background: url('../images/cleaning1.png') no-repeat center center;
+    background-size:cover;
+}
+
+#centered-btns1_s1 {
+    background: url('../images/cleaning2.png') no-repeat center center;
+    background-size:cover;
+}
